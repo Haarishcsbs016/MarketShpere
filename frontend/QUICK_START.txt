@@ -1,0 +1,41 @@
+===========================================
+  MARKETSPHERE FRONTEND - QUICK START
+===========================================
+
+STEP 1: Open Terminal in VS Code
+   - Press Ctrl + ` (backtick) OR
+   - Go to Terminal menu > New Terminal
+
+STEP 2: Navigate to frontend folder
+   cd frontend
+
+STEP 3: Install dependencies (if not done)
+   npm install
+
+STEP 4: Start the development server
+   npm run dev
+
+STEP 5: Wait for this message:
+   ➜  Local:   http://localhost:3000/
+
+STEP 6: Open your browser
+   Go to: http://localhost:3000
+
+===========================================
+TROUBLESHOOTING:
+===========================================
+
+If you see "ERR_CONNECTION_REFUSED":
+1. Make sure the server is running (check terminal)
+2. Wait a few seconds after starting
+3. Make sure port 3000 is not blocked
+
+If dependencies are missing:
+   npm install
+
+If you see module errors:
+   Remove node_modules folder
+   npm install
+
+===========================================
+

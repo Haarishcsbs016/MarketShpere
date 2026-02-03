@@ -1,0 +1,29 @@
+{
+  "name": "marketsphere-backend",
+  "version": "1.0.0",
+  "description": "MarketSphere Backend API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.41.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.22.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "pdfkit": "^0.17.2",
+    "razorpay": "^2.9.2",
+    "stripe": "^14.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
